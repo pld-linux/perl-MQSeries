@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	MQSeries
-%define	pnam	MQSeries
+%define		pdir	MQSeries
+%define		pnam	MQSeries
 Summary:	Perl extension for MQSeries support
 Summary(pl):	Rozszerzenia Perla o obs³ugê MQSeries
 Name:		perl-MQSeries
