@@ -10,7 +10,7 @@ Summary(pl):	Rozszerzenia Perla o obs³ugê MQSeries
 Name:		perl-MQSeries
 Version:	1.20
 Release:	0.1
-License:	???
+License:	custom, distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	e62bf783f62138e9698c3f8a164f7596
@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes README LICENSE
 # use macros:
 #%%{perl_vendorlib}/...
 #%%{perl_vendorarch}/...
