@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	MQSeries
 %define		pnam	MQSeries
-Summary:	perl extension for MQSeries support
+Summary:	Perl extension for MQSeries support
+Summary(pl):	Rozszerzenia Perla o obs³ugê MQSeries
 Name:		perl-MQSeries
 Version:	1.20
 Release:	0.1
@@ -20,6 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Perl extension for MQSeries support.
+
+%description -l pl
+Rozszerzenia Perla o obs³ugê MQSeries.
 
 %prep
 %setup -q -n %{pnam}-%{version}
