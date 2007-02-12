@@ -6,7 +6,7 @@
 %define		pdir	MQSeries
 %define		pnam	MQSeries
 Summary:	Perl extension for MQSeries support
-Summary(pl):	Rozszerzenia Perla o obs³ugê MQSeries
+Summary(pl.UTF-8):   Rozszerzenia Perla o obsÅ‚ugÄ™ MQSeries
 Name:		perl-MQSeries
 Version:	1.20
 Release:	0.1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Perl extension for MQSeries support.
 
-%description -l pl
-Rozszerzenia Perla o obs³ugê MQSeries.
+%description -l pl.UTF-8
+Rozszerzenia Perla o obsÅ‚ugÄ™ MQSeries.
 
 %prep
 %setup -q -n %{pnam}-%{version}
