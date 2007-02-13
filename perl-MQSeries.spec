@@ -6,7 +6,7 @@
 %define		pdir	MQSeries
 %define		pnam	MQSeries
 Summary:	Perl extension for MQSeries support
-Summary(pl.UTF-8):   Rozszerzenia Perla o obsługę MQSeries
+Summary(pl.UTF-8):	Rozszerzenia Perla o obsługę MQSeries
 Name:		perl-MQSeries
 Version:	1.20
 Release:	0.1
