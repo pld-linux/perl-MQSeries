@@ -12,11 +12,12 @@ Version:	1.20
 Release:	0.1
 License:	custom, distributable
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MQSeries/%{pnam}-%{version}.tar.gz
 # Source0-md5:	e62bf783f62138e9698c3f8a164f7596
+URL:		http://search.cpan.org/dist/MQSeries/
+BuildRequires:	MQSeries
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	MQSeries
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -29,7 +30,6 @@ Rozszerzenia Perla o obsługę MQSeries.
 %setup -q -n %{pnam}-%{version}
 
 %build
-# Don't use pipes here: they generally don't work. Apply a patch.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
